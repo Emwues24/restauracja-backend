@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestauracjaApplication {
 
-	static int nextID=0;
+	public static int nextID=0;
 
 	public static void main(String[] args) {
 

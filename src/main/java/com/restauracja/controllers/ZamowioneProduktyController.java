@@ -1,7 +1,10 @@
-package com.restauracja;
+package com.restauracja.controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.restauracja.models.ZamowioneProdukty;
+import com.restauracja.repos.ZamowioneProduktyRepo;
+import com.restauracja.services.ZamowienieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

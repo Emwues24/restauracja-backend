@@ -17,8 +17,10 @@
 //        return ResponseEntity.ok(loginResponse);
 //    }
 //}
-package com.restauracja;
+package com.restauracja.controllers;
 
+import com.restauracja.models.User;
+import com.restauracja.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

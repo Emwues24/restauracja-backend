@@ -1,5 +1,6 @@
-package com.restauracja;
+package com.restauracja.services;
 
+import com.restauracja.models.Zamowienie;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

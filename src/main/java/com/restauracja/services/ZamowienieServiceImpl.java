@@ -1,9 +1,10 @@
-package com.restauracja;
+package com.restauracja.services;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.tomcat.util.json.JSONFilter;
-import org.hibernate.Session;
+
+import com.restauracja.DBUtil;
+import com.restauracja.models.Zamowienie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +25,7 @@ public class ZamowienieServiceImpl implements ZamowienieService {
     Connection connection;
 
     public ZamowienieServiceImpl() throws SQLException {
-        connection=DBUtil.getConnection();
+        connection= DBUtil.getConnection();
     }
 
     @Override

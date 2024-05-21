@@ -1,5 +1,7 @@
-package com.restauracja;
+package com.restauracja.controllers;
 
+import com.restauracja.models.Zamowienie;
+import com.restauracja.services.ZamowienieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

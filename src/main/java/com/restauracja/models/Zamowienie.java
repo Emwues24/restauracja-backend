@@ -1,4 +1,4 @@
-package com.restauracja;
+package com.restauracja.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

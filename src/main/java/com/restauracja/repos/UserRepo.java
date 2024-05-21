@@ -15,8 +15,9 @@
 //
 //    Admin findByUserId(String userId);
 //}
-package com.restauracja;
+package com.restauracja.repos;
 
+import com.restauracja.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
